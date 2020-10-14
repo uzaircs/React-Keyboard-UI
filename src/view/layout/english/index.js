@@ -1,3 +1,3 @@
-import qwerty from './english/qwerty'
+import qwerty from '../english/qwerty'
 
 export default qwerty;
