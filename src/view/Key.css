@@ -1,6 +1,6 @@
 .Key {
   display: table-cell;
-  border: 1px solid #000;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   font-family: sans-serif;
 }
 
@@ -92,13 +92,14 @@
 }
 
 @supports ((-moz-appearance:none) or (-ms-ime-align: auto)) {
+
   /* Firefox height fix */
   /* Edge wrong position fix */
   .Key .Key-Row-Area-Line:first-child {
     position: relative;
     bottom: 20px;
   }
-  
+
   .Key .Key-Row-Area-Line {
     display: block;
     line-height: 1;
@@ -112,7 +113,7 @@
     line-height: 0;
     height: 0;
   }
-  
+
   .Key .Key-Row-Area-Line:first-child {
     margin: -20% 0 60% 0;
   }
